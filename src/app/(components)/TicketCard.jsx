@@ -26,7 +26,7 @@ const TicketCard = ({ ticket }) => {
   return (
     <>
       <div className="flex flex-col p-2 m-2 border-b">
-        <DeleteBlock id={ticket._id} />
+        {/* <DeleteBlock id={ticket._id} /> */}
         <div className="font-bold text-xl">{ticket.title}</div>
         <div className="whitespace-pre-wrap">{ticket.description}</div>
         <div className="flex flex-col">
