@@ -4,7 +4,8 @@ import DeleteBlock from "./(components)/DeleteBlock";
 
 const getTickets = async () => {
   try {
-    const res = await fetch("http://localhost:3000/api/Tickets", {
+    // const res = await fetch("http://localhost:3000/api/Tickets", {
+    const res = await fetch("https://ktltcqa.vercel.app/api/Tickets", {
       cache: "no-store",
     });
 
